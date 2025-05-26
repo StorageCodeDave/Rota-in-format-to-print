@@ -10,7 +10,7 @@ converted to string and that kept the dates in order and better format for the r
 
 
 This was my first dynamic query as orginally design it for myself to be able to check data directly in the database and did not want to be limited by a date range size. 
-This did make it easy to reuse with how many days the customer wanted to see in the past and shifts in the future,
+This did make it easy to reuse with how many days the customer wanted to see in the past and shifts in the future.
 
 DECLARE @starttime datetime, @enddate datetime, @cols AS NVARCHAR(MAX), @query AS NVARCHAR(MAX);
 
