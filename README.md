@@ -3,6 +3,9 @@ The customer wanted a table report that could be print on A3 and the rota pinned
 I advised I could create something they could use in PowerQuery on there PC and would connect to SQL and could refresh it everytime they wanted to print it. 
 It's limitation was they could not choose the dates so I would set the report to return last 33 days and forward 14 days and they were happy be able to print this additional to the GUI.
 
+I did run into issues with the date converted to more readable format then made the date order of the rota to order wrong. I create a temp table with dates in it before the date where 
+converted to string and that kept the dates in order and better format for the report
+
 ![image](https://github.com/user-attachments/assets/91c9f2ff-f166-478d-8334-f24e59de73f8)
 
 
